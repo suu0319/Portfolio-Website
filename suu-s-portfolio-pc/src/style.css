@@ -1,0 +1,365 @@
+body,
+html 
+{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+{
+  /*當字型名稱中出現空格時，要在外側加上雙引號*/
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+}
+
+/*#代表ID*/
+/*div靠左*/
+#DIV1
+{
+  text-align:center;
+  position:relative;
+  left:10%;
+  width:35%;
+  height:50%;  
+  float:left;  
+}
+
+/*div靠右*/
+#DIV2
+{
+  text-align:center;
+  position:relative;
+  right:10%;
+  width:35%;
+  height:50%;  
+  float:Right;
+}
+
+/*div置中*/
+#DIV3
+{
+  text-align:center;
+  position:relative;
+  float:Center;
+}
+
+/*圖片放大秒數*/
+img
+{
+  transition:all 0.5s ease-out;
+}
+
+/*圖片放大倍數(hover為鼠標在圖片裡執行)*/
+img:hover
+{
+  transform:scale(1.1,1.1);
+}
+
+@media(max-width: 1920px)
+{
+  body,
+  html 
+  { 
+    font-size:10%;
+    line-height:10px;
+  }
+ 
+  #FontTitle
+  {
+    color:white;
+    font-size:25px;
+  }
+  
+  #FontH1
+  {
+    color:white;
+    font-size:40px;
+  }
+  
+  #FontH2
+  {
+    color:white;
+    font-size:20px;
+  }
+  
+  #DIV1
+  {
+    text-align:center;
+    position:relative;
+    left:10%;
+    width:35%;
+    height:50%;  
+    float:left;  
+  }
+  
+  #DIV2
+  {
+    text-align:center;
+    position:relative;
+    right:10%;
+    width:35%;
+    height:50%;  
+    float:Right;
+  }
+  
+  #DIV3
+  {
+    text-align:center;
+    position:relative;
+    float:Center;
+  }
+  
+  img
+  {
+    font-size:1x;
+    width:600px;
+    height:400px;  
+  }
+}
+
+@media(max-width: 1440px)
+{
+  body,
+  html 
+  { 
+    font-size:10%;
+    line-height:10px;
+  }
+ 
+  #FontTitle
+  {
+    color:white;
+    font-size:25px;
+  }
+  
+  #FontH1
+  {
+    color:white;
+    font-size:40px;
+  }
+  
+  #FontH2
+  {
+    color:white;
+    font-size:20px;
+  }
+  
+  #DIV1
+  {
+    text-align:center;
+    position:relative;
+    left:10%;
+    width:35%;
+    height:50%;  
+    float:left;  
+  }
+  
+  #DIV2
+  {
+    text-align:center;
+    position:relative;
+    right:10%;
+    width:35%;
+    height:50%;  
+    float:Right;
+  }
+  
+  #DIV3
+  {
+    text-align:center;
+    position:relative;
+    float:Center;
+  }
+  
+  img
+  {
+    font-size:1x;
+    width:500px;
+    height:400px;  
+  }
+}
+
+@media(max-width: 1200px)
+{
+  body,
+  html 
+  { 
+    font-size:10%;
+    line-height:10px;
+  }
+ 
+  #FontTitle
+  {
+    color:white;
+    font-size:15px;
+  }
+  
+  #FontH1
+  {
+    color:white;
+    font-size:30px;
+  }
+  
+  #FontH2
+  {
+    color:white;
+    font-size:15px;
+  }
+  
+  #DIV1
+  {
+    text-align:center;
+    position:relative;
+    left:10%;
+    width:35%;
+    height:50%;  
+    float:left;  
+  }
+  
+  #DIV2
+  {
+    text-align:center;
+    position:relative;
+    right:10%;
+    width:35%;
+    height:50%;  
+    float:Right;
+  }
+  
+  #DIV3
+  {
+    text-align:center;
+    position:relative;
+    float:Center;
+  }
+  
+  img
+  {
+    font-size:1x;
+    width:400px;
+    height:300px;  
+  }
+}
+
+@media(max-width: 1000px)
+{
+  body,
+  html 
+  { 
+    font-size:10%;
+    line-height:10px;
+  }
+ 
+  #FontTitle
+  {
+    color:white;
+    font-size:15px;
+  }
+  
+  #FontH1
+  {
+    color:white;
+    font-size:25px;
+  }
+  
+  #FontH2
+  {
+    color:white;
+    font-size:15px;
+  }
+  
+  #DIV1
+  {
+    text-align:center;
+    position:relative;
+    left:10%;
+    width:35%;
+    height:50%;  
+    float:left;  
+  }
+  
+  #DIV2
+  {
+    text-align:center;
+    position:relative;
+    right:10%;
+    width:35%;
+    height:50%;  
+    float:Right;
+  }
+  
+  #DIV3
+  {
+    text-align:center;
+    position:relative;
+    float:Center;
+  }
+  
+  img
+  {
+    font-size:1x;
+    width:250px;
+    height:250px;  
+  }
+}
+
+@media(max-width: 768px)
+{
+  body,
+  html 
+  { 
+    font-size:10%;
+    line-height:10px;
+  }
+ 
+  #FontTitle
+  {
+    color:white;
+    font-size:15px;
+  }
+  
+  #FontH1
+  {
+    color:white;
+    font-size:25px;
+  }
+  
+  #FontH2
+  {
+    color:white;
+    font-size:15px;
+  }
+  
+  #DIV1
+  {
+    text-align:center;
+    position:relative;
+  }
+  
+  #DIV2
+  {
+    text-align:center;
+    position:relative;
+  }
+  
+  #DIV3
+  {
+    text-align:center;
+    position:relative;
+  }
+  
+  img
+  {
+    font-size:1x;
+    width:250px;
+    height:250px;  
+  }
+}
